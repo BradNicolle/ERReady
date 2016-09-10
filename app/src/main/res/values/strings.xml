@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ER Ready</string>
+    <string name="app_name">bEReady</string>
     <string name="first_name">First name</string>
     <string name="last_name">Last name</string>
     <string name="male">Male</string>
@@ -7,4 +7,13 @@
     <string name="sex">Sex</string>
     <string name="cancel">Cancel</string>
     <string name="waiting_time">Your estimated waiting time:</string>
+    <string name="medicare_number">Medicare #</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="submit">Submit</string>
+    <string name="while_you_wait">While you\'re waiting:</string>
+    <string name="are_you_sure">By pressing \"Submit\" below, you accept the Terms of Service and confirm that the information you have provided is correct. Submitting this request will add you to a triage queue in the selected ER.</string>
+    <string name="prev"><![CDATA[< Prev]]></string>
+    <string name="next"><![CDATA[Next >]]></string>
 </resources>

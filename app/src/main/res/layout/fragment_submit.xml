@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/are_you_sure"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="16dp"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/submit_request_button"
+        style="@style/BottomButton"
+        android:text="@string/submit" />
+</LinearLayout>

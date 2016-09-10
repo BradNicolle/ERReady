@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/nav_buttons"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/prev_button"
+            style="@style/BottomButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/prev"/>
+        <Button
+            android:id="@+id/next_button"
+            style="@style/BottomButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/next"/>
+    </LinearLayout>
+</RelativeLayout>
+

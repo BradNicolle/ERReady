@@ -27,6 +27,13 @@ public class PieChart extends View {
         textPaint.setTextAlign(Paint.Align.CENTER);
     }
 
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+
+        setMeasuredDimension(getMeasuredWidth(), getMeasuredWidth());
+    }
+
     public void setPercentComplete(float percent) {
         completePercent = percent;
     }
