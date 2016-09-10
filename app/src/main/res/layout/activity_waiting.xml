@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    tools:context="com.bradnicolle.erready.WaitingActivity">
+
+    <TextView
+        android:id="@+id/waiting_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/waiting_time"
+        android:gravity="center_horizontal"
+        android:textSize="24sp" />
+
+    <com.bradnicolle.erready.views.PieChart
+        android:id="@+id/waiting_chart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/waiting_text"
+        android:layout_margin="50dp"/>
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_light"
+        android:textSize="24sp"
+        android:text="@string/cancel"/>
+
+</RelativeLayout>
