@@ -16,4 +16,15 @@
     <string name="are_you_sure">By pressing \"Submit\" below, you accept the Terms of Service and confirm that the information you have provided is correct. Submitting this request will add you to a triage queue in the selected ER.</string>
     <string name="prev"><![CDATA[< Prev]]></string>
     <string name="next"><![CDATA[Next >]]></string>
+    <string name="phone_number">Phone number</string>
+    <string name="personal_info">Personal details</string>
+    <string name="family_history">Family history</string>
+    <string name="existing_conditions">Existing conditions</string>
+    <string name="text_medication">List any medications you take</string>
+    <string name="chronic_conditions">Do you suffer from any chronic conditions?</string>
+    <string name="number_years">Number of years</string>
+    <string name="specialist">Specialist name</string>
+    <string name="allergies">Do you have any allergies?</string>
+    <string name="indicate_region">Indicate problem region</string>
+    <string name="protips">&#8226; Stabilize the arm with a towel as a sling.\n&#8226; Try to avoid moving the arm.\n&#8226; Place ice in a bag and apply to the arm for 20-30min. Wrap in a towel to avoid getting too cold.\n</string>
 </resources>

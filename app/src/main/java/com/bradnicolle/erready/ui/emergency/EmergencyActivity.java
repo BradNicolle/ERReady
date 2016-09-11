@@ -17,6 +17,8 @@ import butterknife.OnClick;
 public class EmergencyActivity extends PagingFragmentActivity {
     private AnatomyFragment anatomyFragment = new AnatomyFragment();
     private SeverityQuestionFragment severityQuestionFragment = new SeverityQuestionFragment();
+    private MoveFingersQuestionFragment moveFingersFragment = new MoveFingersQuestionFragment();
+    private SwollenQuestionFragment swollenQuestionFragment = new SwollenQuestionFragment();
     private SubmitFragment submitFragment = new SubmitFragment();
 
     public static Intent newIntent(Context context) {
@@ -28,6 +30,8 @@ public class EmergencyActivity extends PagingFragmentActivity {
         List<Page> pages = new ArrayList<>();
         pages.add(new Page(anatomyFragment, "Anatomy", true));
         pages.add(new Page(severityQuestionFragment, "Severity", true));
+        pages.add(new Page(moveFingersFragment, "Move Fingers", true));
+        pages.add(new Page(swollenQuestionFragment, "Swollen", true));
         pages.add(new Page(submitFragment, "Submit", false));
         return pages;
     }

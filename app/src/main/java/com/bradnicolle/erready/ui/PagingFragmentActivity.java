@@ -48,7 +48,7 @@ public abstract class PagingFragmentActivity extends AppCompatActivity {
             @Override
             public void onPageScrollStateChanged(int state) {}
         });
-        
+
         updateNav(0);
     }
 

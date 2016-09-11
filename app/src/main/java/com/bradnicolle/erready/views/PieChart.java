@@ -11,8 +11,8 @@ public class PieChart extends View {
     private Paint outerCirclePaint;
     private Paint innerCirclePaint;
     private Paint textPaint;
-    private float completePercent = 50;
-    private String centralText = "6h";
+    private float completePercent = 90;
+    private String centralText = "2h";
 
     public PieChart(Context context, AttributeSet attrs) {
         super(context, attrs);

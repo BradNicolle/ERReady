@@ -34,6 +34,14 @@
                 android:text="@string/while_you_wait"
                 android:gravity="center_horizontal"
                 android:textSize="24sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/protips"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/sling" />
         </LinearLayout>
     </ScrollView>
 

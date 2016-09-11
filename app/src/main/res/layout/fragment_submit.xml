@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
     <TextView
         android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Your nearest ER is RPA:"
+        android:gravity="center"
+        android:textSize="24sp" />
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="@string/are_you_sure"
-        android:gravity="center_vertical|center_horizontal"
-        android:padding="16dp"
-        android:textSize="16sp" />
+        map:mapType="normal"/>
     <Button
         android:id="@+id/submit_request_button"
         style="@style/BottomButton"
